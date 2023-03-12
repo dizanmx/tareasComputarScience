@@ -13,3 +13,14 @@ function palindrome(){
     var comparar = separar.length === invertido.length && separar.every((value, index) => value === invertido[index])
     alert (comparar)
 }
+
+function farenheitToCelsius(){
+        var gradoString = prompt("ingresa grados a convertir")
+        console.log(gradoString)
+        var farenheit = parseInt(gradoString)
+        console.log(farenheit)
+        celsius = ((farenheit - 32)/1.800)
+        console.log(celsius)
+        alert(`El resultado es: °${celsius} celsius` )
+
+}
